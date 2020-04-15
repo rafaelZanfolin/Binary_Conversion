@@ -16,7 +16,6 @@ class Binary_Converter:
 				idx = idx + 1
 			return decimal
 
-		#string = str(input("Please insert a binary number with lenght less than 8: "))
 		binary = self.binary
 		lista_hex = ["0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"]
 
@@ -77,9 +76,3 @@ class Binary_Converter:
 
 		deci_value = "The decimal value of the binary {0} is: {1} ".format(binary,decimal)
 		return deci_value
-
-test_1 = Binary_Converter('1111')
-hex_1 = test_1.binary_to_hex()
-deci_1 = test_1.binary_to_deci()
-
-print(deci_1)
